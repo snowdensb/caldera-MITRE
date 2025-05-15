@@ -1,6 +1,7 @@
 import argparse
 import asyncio
 import logging
+import logging
 import os
 import sys
 
@@ -14,6 +15,7 @@ from app.objects.c_agent import Agent
 from app.objects.secondclass.c_executor import Executor
 from app.objects.secondclass.c_link import Link
 from app.service.app_svc import AppService
+from app.service.auth_svc import AuthService
 from app.service.auth_svc import AuthService
 from app.service.contact_svc import ContactService
 from app.service.data_svc import DataService, DATA_BACKUP_DIR
