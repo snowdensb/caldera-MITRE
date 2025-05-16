@@ -21,5 +21,5 @@ lxml~=4.6.2  # debrief
 reportlab==3.5.67  # debrief
 svglib==1.0.1  # debrief
 Markdown==3.3.3  # training
-dnspython==2.1.0
+dnspython==2.6.0
 asyncssh==2.5.0
