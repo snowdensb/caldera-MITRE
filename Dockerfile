@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:resolute
 
 ARG TZ="UTC"
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
